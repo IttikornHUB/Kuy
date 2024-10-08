@@ -78,7 +78,7 @@ local Tab = Window:MakeTab({
 
 
 Tab:AddButton({
-	Name = "Rimura Hub",
+	Name = "Rimura Hub(มีแมพเชี้ยไรบ้างหาดูเอาในดิสเขา)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuraHub/MAP/main/AllMAP"))()
   	end    
@@ -94,6 +94,13 @@ Tab:AddButton({
 
 
 Tab:AddButton({
+   Name = "Verse Piece(ค่ายเหี้ยไรไม่รู้ที่รู้ๆมีคีย์นะไอชาติหมา)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/ElgatoHub/main/Loader.lua"))()
+  end   
+
+
+Tab:AddButton({
 	Name = " Blox Fruit(Redz Hub)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
@@ -104,7 +111,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Blox Fruit(Maru Hub)(soon)กดไปก็ไม่ได้หรอกไอควาย",
 	Callback = function()
-      		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+      		game.Players.LocalPlayer.Character.Humanoid.Health = -99999999999999999
   	end    
 })
 
@@ -136,7 +143,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "HP 9999999(เลือดปลอม)",
 	Callback = function()
-      		game.Players.LocalPlayer.Character.Humanoid.Health = 9999999
+      		game.Players.LocalPlayer.Character.Humanoid.Health = 99999999999999999999999
   	end    
 })
 
@@ -144,7 +151,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "HP 1(เลือดปลอม)",
 	Callback = function()
-      		game.Players.LocalPlayer.Character.Humanoid.Health = 1
+      		game.Players.LocalPlayer.Character.Humanoid.Health = -9999999999
   	end    
 })
 
